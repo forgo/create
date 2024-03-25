@@ -1,0 +1,17 @@
+{
+  "name": "@forgo/create",
+  "version": "0.1.1",
+  "exports": "./mod.ts",
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "deno.json",
+      "mod.ts",
+      "create.ts",
+      "src/**/*.ts"
+    ],
+    "exclude": ["src/**/*.test.ts"]
+  },
+  "imports": { "@std/cli": "jsr:@std/cli@^0.220.1" }
+}
